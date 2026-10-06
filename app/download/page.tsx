@@ -43,7 +43,10 @@ export default function DownloadPage() {
               Get PocketWatch on iPhone or Android.
             </h1>
             <p className="max-w-xl text-lg leading-8 text-slate-300">
-              PocketWatch is a salary tracker for public payroll transparency across New York City and New York State. Download the app from the App Store or use the Google Play link when the Android release is live.
+              PocketWatch is a salary tracker for public payroll transparency
+              across New York City and New York State. Download the app from the
+              App Store or use the Google Play link when the Android release is
+              live.
             </p>
 
             <DownloadButtons />
@@ -82,21 +85,30 @@ export default function DownloadPage() {
       <div className="mx-auto mt-10 max-w-4xl rounded-[2rem] border border-white/10 bg-[#08131b] p-6 sm:p-8">
         <div className="grid gap-6 md:grid-cols-3">
           <div>
-            <p className="text-sm font-semibold text-cyan-300">1. Choose your platform</p>
+            <p className="text-sm font-semibold text-cyan-300">
+              1. Choose your platform
+            </p>
             <p className="mt-2 text-sm leading-7 text-slate-300">
-              Use the iOS App Store button on iPhone or iPad, or the Google Play button on Android.
+              Use the iOS App Store button on iPhone or iPad, or the Google Play
+              button on Android.
             </p>
           </div>
           <div>
-            <p className="text-sm font-semibold text-cyan-300">2. Install the app</p>
+            <p className="text-sm font-semibold text-cyan-300">
+              2. Install the app
+            </p>
             <p className="mt-2 text-sm leading-7 text-slate-300">
-              Tap the app, review the permissions, and open it to begin searching public payroll records.
+              Tap the app, review the permissions, and open it to begin
+              searching public payroll records.
             </p>
           </div>
           <div>
-            <p className="text-sm font-semibold text-cyan-300">3. Start searching</p>
+            <p className="text-sm font-semibold text-cyan-300">
+              3. Start searching
+            </p>
             <p className="mt-2 text-sm leading-7 text-slate-300">
-              Filter by name, title, agency, year, salary, and jurisdiction to explore public payroll data.
+              Filter by name, title, agency, year, salary, and jurisdiction to
+              explore public payroll data.
             </p>
           </div>
         </div>

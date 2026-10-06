@@ -33,17 +33,21 @@ export default function HomePage() {
 
             <div className="space-y-5">
               <h1 className="max-w-xl text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Track pay, compare salaries, and understand public payroll data faster.
+                Track pay, compare salaries, and understand public payroll data
+                faster.
               </h1>
               <p className="max-w-xl text-lg leading-8 text-slate-300">
-                PocketWatch helps you search public salary records from New York City and New York State so you can spot trends, review compensation data, and make smarter career decisions.
+                PocketWatch helps you search public salary records from New York
+                City and New York State so you can spot trends, review
+                compensation data, and make smarter career decisions.
               </p>
             </div>
 
             <div className="space-y-4">
               <DownloadButtons />
               <p className="text-sm text-slate-400">
-                Available for iPhone and Android users. App Store link is live; Google Play is placeholder until publication.
+                Available for iPhone and Android users. App Store link is live;
+                Google Play is placeholder until publication.
               </p>
             </div>
 
@@ -97,8 +101,12 @@ export default function HomePage() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-400/10 ring-1 ring-cyan-400/30">
                 <span className="text-lg text-cyan-300">•</span>
               </div>
-              <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">{feature.description}</p>
+              <h3 className="text-xl font-semibold text-white">
+                {feature.title}
+              </h3>
+              <p className="mt-3 text-sm leading-7 text-slate-300">
+                {feature.description}
+              </p>
             </article>
           ))}
         </div>
@@ -114,13 +122,16 @@ export default function HomePage() {
               Get the app for fast salary checks on the go.
             </h2>
             <p className="mt-4 max-w-xl text-base leading-7 text-slate-300">
-              PocketWatch is designed for quick lookups of public compensation data, with a smooth mobile experience for both iOS and Android users.
+              PocketWatch is designed for quick lookups of public compensation
+              data, with a smooth mobile experience for both iOS and Android
+              users.
             </p>
           </div>
 
           <div className="rounded-3xl border border-white/10 bg-[#0b1720] p-5">
             <p className="text-sm font-medium text-slate-300">
-              Download the app and compare how pay trends stack up for public-sector roles.
+              Download the app and compare how pay trends stack up for
+              public-sector roles.
             </p>
             <div className="mt-5">
               <DownloadButtons />
